@@ -1,0 +1,13 @@
+.error{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+    img{
+        height: 180px;
+        width:450px;
+    }
+}

@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  background-color: #0055ed;
+  .list {
+      display: flex;
+      padding-left: 10px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .item {
+    list-style-type: none;
+  }
+  .navLink {
+    text-decoration: none;
+    background-color: rgb(233, 224, 212);
+    padding: 6px;
+    color: black;
+    border: 2px solid rgb(42, 50, 28);
+   box-shadow: 4px black;
+  }
+}
